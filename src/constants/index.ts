@@ -12,8 +12,8 @@ export const greys = [
 ] as const;
 
 export const TEMPLATE = `:root {
-  --primary-color: {{primary}};
-  --accent-color: {{accent}};
+  --primary-color: [[primary-base]];
+  --accent-color: [[accent-base]];
   --text-color: #334155;
   --background-color: #ffffff;
 }
@@ -34,9 +34,9 @@ button {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --primary-color: {{dark-primary}};
-    --accent-color: {{dark-accent}};
-    --text-color: #FFFFFF;
+    --primary-color: [[dark-primary-base]];
+    --accent-color: [[dark-accent-base]]}};
+    --text-color: #ffffff;
     --background-color: #111111;
   }
 }`;

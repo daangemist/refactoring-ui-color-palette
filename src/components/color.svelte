@@ -20,13 +20,13 @@
 
   let shades: { color: Color; label: string }[] = [];
   $: shades = [
-    { label: 'Lightest', color: $storeColor.lighten(0.4) },
-    { label: 'Lightish', color: $storeColor.lighten(0.3) },
-    { label: 'Light', color: $storeColor.lighten(0.2) },
+    { label: 'Lightest', color: $storeColor.lighten(0.3) },
+    { label: 'Lightish', color: $storeColor.lighten(0.2) },
+    { label: 'Light', color: $storeColor.lighten(0.1) },
     { label: 'Base', color: $storeColor },
-    { label: 'Dark', color: $storeColor.darken(0.2) },
-    { label: 'Darkish', color: $storeColor.darken(0.3) },
-    { label: 'Darkest', color: $storeColor.darken(0.4) },
+    { label: 'Dark', color: $storeColor.darken(0.1) },
+    { label: 'Darkish', color: $storeColor.darken(0.2) },
+    { label: 'Darkest', color: $storeColor.darken(0.3) },
   ];
 </script>
 
