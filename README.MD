@@ -7,6 +7,8 @@ This project is based on the [Refactoring UI](https://www.refactoringui.com) pre
 
 ## Use
 
+Visit at https://refactoring-ui-color-palette.vercel.app/, or run it yourself below.
+
 ```bash
 npm ci
 npm run build
