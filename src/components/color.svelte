@@ -33,9 +33,16 @@
 <div class="box">
   <div class="columns">
     <div class="column">
-      <div class="field">
-        <div class="control">
-          <input class="input color" type="color" value={$storeColor.hex()} on:change={setColor} />
+      <div class="columns">
+        <div class="field is-horizontal column is-narrow">
+          <div class="control">
+            <input class="input color" type="color" value={$storeColor.hex()} on:change={setColor} />
+          </div>
+        </div>
+        <div class="field is-horizontal column">
+          <div class="control">
+            <input class="input color" type="text" value={$storeColor.hex()} on:change={setColor} />
+          </div>
         </div>
       </div>
     </div>
